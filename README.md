@@ -5,7 +5,7 @@ Find the best place near you. This is the client-side application of the FoodFun
 2. Rating and Review Module
 3. Google place search etc.
 
-(https://github.com/maaz28/FFS-Client-Side-App);
+(https://github.com/maaz28/FoodFunShop);
 
 ## preview
 
