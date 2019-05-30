@@ -75,7 +75,7 @@ class ContactContainer extends Component {
 			this.setState({
 				loader : true
 			})
-			post_request('http://localhost:9000/contact-us', contact)
+			post_request('https://ffs-server-v3.herokuapp.com/contact-us', contact)
 			.then((res) => {
 				console.log(res);
 				this.setState({

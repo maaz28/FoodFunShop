@@ -25,7 +25,6 @@ class Home extends Component {
     <AboutArea/>
     <FeaturedPlaces/>
     <HangoutPlaces/>
-    {/* <TrendingPlaces/> */}
     <ClientsArea/>
     <Footer/>
             </div>

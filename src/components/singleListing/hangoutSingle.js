@@ -99,10 +99,9 @@ class HangoutSingle extends Component {
             name = 'hangout';
         }
         console.log(this.props.hangoutId);
-        const response = await fetch('http://localhost:8000/places/hangout/hangout-place-details/5c2e4b5e4d5fb91d4807da0c/portgrand')
+        const response = await fetch('https://ffs-server-v3.herokuapp.com/places/hangout/hangout-place-details/'+id+'/p')
         // const response = await fetch('https://ffs-server-v3.herokuapp.com/places/hangout/hangout-place-details/' + id + '/' + name)
         const body = await response.json();
-
         if (response.status !== 200) {
             throw Error(body.message)
         }
