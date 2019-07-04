@@ -9,7 +9,7 @@ Find the best place near you. This is the client-side application of the FoodFun
 
 ## preview
 
-https://rough-2f8bc.firebaseapp.com/#/
+See the demo [here](https://rough-2f8bc.firebaseapp.com/#/)
 
 ## install
 
